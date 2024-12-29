@@ -1,0 +1,24 @@
+# Swap, backup, and undo files
+*.swp
+*.swo
+*.bak
+*.un~
+
+# Session files
+session.*
+
+# Plugin data (Lazy.nvim)
+lazy-lock.json
+data/lazy/
+
+# Operating system-specific files
+.DS_Store
+*~
+Thumbs.db
+desktop.ini
+
+# Logs and cache
+*.log
+*.tmp
+.cache/
+
