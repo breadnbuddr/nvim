@@ -48,4 +48,7 @@ vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 -- Maps the "K" key in visual mode to move the selected lines up by one line
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
+-- Toggle undo tree
+vim.keymap.set("n", "<leader>u", ":UndotreeToggle<CR>", { desc = "Toggle undo tree" })
+
 -- vim: ts=2 sts=2 sw=2 et
