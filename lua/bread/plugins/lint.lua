@@ -8,7 +8,7 @@ return {
 			lint.linters_by_ft = {
 				markdown = { "markdownlint" },
 				python = { "pylint" },
-				rust = { "clippy" },
+				-- rust = { "clippy" },
 				lua = { "luacheck" },
 			}
 
